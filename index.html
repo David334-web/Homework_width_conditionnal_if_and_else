@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire D'information</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js" defer></script>
+</head>
+
+<body>
+    <form class="formulaire" name="formulaire">
+        <input id="name" type="text" name="name" placeholder="Votre nom 👨🏻‍🦱">
+
+        <input id="email" type="email" name="email" placeholder="Mettez votre e-mail 📧">
+
+        <input id="age" type="number" name="age" placeholder="Mettez votre age">
+
+        <p>Personne Physique Ou Juridique</p> <br>
+        <input type="radio" name="type" id="Phy" value="Physique">
+        <label for="Phy">Physique</label>
+
+        <input type="radio" name="type" id="juri" value="Juridique">
+        <label for="juri">Juridique</label>
+
+        <button type="button" onclick="sauvegarder()">Sauvegarder</button>
+    </form>
+</body>
+
+</html>

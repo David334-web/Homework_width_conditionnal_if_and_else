@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #bdd5ec;
+}
+
+.formulaire {
+    background-color: #0000ff;
+    width: 400px;
+    padding: 20px;
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 100px;
+    box-shadow: 0px 4px 8px #413f3f;
+}
+
+.formulaire input:not([type=radio]) {
+    display: block;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    width: 100%;
+    border: 2px solid #ccc;
+}
+
+.formulaire button {
+    display: block;
+    padding: 8px;
+    background-color: #319214;
+    border-radius: 20px;
+    color: #fff;
+    margin: auto;
+    cursor: pointer;
+    margin-top: 20px;
+}
